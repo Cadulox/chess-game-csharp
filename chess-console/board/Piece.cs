@@ -13,5 +13,10 @@
             this.color = color;
             this.amtMovements = 0;
         }
+
+        public void incrementMovementAmount()
+        {
+            amtMovements++;
+        }
     }
 }
